@@ -143,7 +143,7 @@ async def start_yukki():
         wdk = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 3")
-            await  wdk.start()
+            await wdk.start()
             await wdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             await wdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await wdk.get_me()
