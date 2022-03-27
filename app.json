@@ -18,7 +18,7 @@
         "value": "6112284",
         "required": true
       },
-      "STRING1": {
+      "STRING10": {
         "description": "Telethon String Session",
         "value": "",
         "required": false
