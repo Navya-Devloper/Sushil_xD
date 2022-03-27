@@ -94,9 +94,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 1")
             await idk.start()
+            await idk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await idk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await idk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
