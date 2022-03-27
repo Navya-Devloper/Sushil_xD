@@ -22,7 +22,7 @@
 
 # Click The Logo' Deploy ...
 
-[![Deploy](https://telegra.ph/file/9f1afa7161f562546f062.jpg)](https://heroku.com/deploy?template=https://github.com/Badnam-xD/Brazzers.com)
+[![Deploy](https://telegra.ph/file/9f1afa7161f562546f062.jpg)](https://heroku.com/deploy?template=https://github.com/Brutal-xd/Brazzers.com)
 
 ------------------------------------------------
 
