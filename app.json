@@ -63,6 +63,56 @@
         "value": "",
         "required": false
       },
+       "STRING11": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING12": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING13": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING14": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING15": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING16": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING17": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING18": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING19": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
+       "STRING20": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": false
+      },
       "API_HASH": {
         "description": "Api Hash",
         "value": "0ad76de6d96659b8a13c79215888a68a",
