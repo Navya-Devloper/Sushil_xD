@@ -502,9 +502,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 17")
             await aan.start()
-            await aan(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await aan(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await aan.get_me()
+            await aan(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await aan(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -512,39 +512,37 @@ async def start_lovely():
             pass
     else:
         print("Session 17 not Found")
-        pass
         session_name = "startup"
         aan = TelegramClient(session_name, a, b)
         try:
             await aan.start()
         except Exception as e:
-            pass 
+            pass
 
 
-        if sieee:
-        session_name = str(sieee)
+    if eieee:
+        session_name = str(eieee)
         print("String 18 Found")
         ake = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 18")
             await ake.start()
-            await ake(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await ake(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await ake.get_me()
+            await ake(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await ake(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
     else:
-        print("Session 17 not Found")
-        pass
+        print("Session 18 not Found")
         session_name = "startup"
         ake = TelegramClient(session_name, a, b)
         try:
             await ake.start()
         except Exception as e:
-            pass 
+            pass
 
 
 
@@ -555,9 +553,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 19")
             await eel.start()
-            await eel(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await eel(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await eel.get_me()
+            await eel(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await eel(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -565,13 +563,12 @@ async def start_lovely():
             pass
     else:
         print("Session 19 not Found")
-        pass
         session_name = "startup"
         eel = TelegramClient(session_name, a, b)
         try:
             await eel.start()
         except Exception as e:
-            pass 
+            pass
 
 
     if gandu:
@@ -581,9 +578,10 @@ async def start_lovely():
         try:
             print("Booting Up The Client 20")
             await khu.start()
-            await khu(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await khu(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await khu.get_me()
+            await khu(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await khu(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await khu(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -591,13 +589,12 @@ async def start_lovely():
             pass
     else:
         print("Session 20 not Found")
-        pass
         session_name = "startup"
         khu = TelegramClient(session_name, a, b)
         try:
             await khu.start()
         except Exception as e:
-            pass 
+            pass
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(start_lovely())       
