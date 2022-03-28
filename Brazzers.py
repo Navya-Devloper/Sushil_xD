@@ -626,8 +626,8 @@ async def gifspam(e, smex):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))        
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))        
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
     if e.sender_id in SMEX_USERS:
@@ -652,8 +652,8 @@ async def _(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.join"))        
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.join"))        
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
@@ -678,8 +678,8 @@ async def _(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))        
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))        
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
@@ -705,8 +705,8 @@ async def _(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))        
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))        
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
@@ -735,8 +735,8 @@ async def _(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
@@ -776,8 +776,8 @@ async def spam(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -825,8 +825,8 @@ async def spam(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -870,8 +870,8 @@ async def spam(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -921,8 +921,8 @@ async def spam(e):
 @adk.on(events.NewMessage(incoming=True))
 @bdk.on(events.NewMessage(incoming=True))
 @cdk.on(events.NewMessage(incoming=True))
-@edk.on(events.NewMessage(incoming=True))
 @ddk.on(events.NewMessage(incoming=True))
+@edk.on(events.NewMessage(incoming=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -946,8 +946,8 @@ async def _(event):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 async def _(e):
     global que
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱\n\nCommand:\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>"
@@ -988,8 +988,8 @@ async def _(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 async def _(e):
     global que
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱\n\nCommand:\n\n.dreplyraid <Username of User>\n\n.dreplyraid <reply to a User>"
@@ -1033,8 +1033,8 @@ async def _(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
@@ -1057,8 +1057,8 @@ async def ping(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n  ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎...𝐑𝐞𝐬𝐭𝐚𝐫𝐭.......😊"
@@ -1118,8 +1118,8 @@ async def restart(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))        
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 async def alive(e):
     if e.sender_id in SMEX_USERS:
         text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎\n\n\n Brazzers 𝐒ᴘᴀᴍ ɪs 𝐀ʟɪᴠᴇ !!\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : @Badnam_Botz\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : @Its_Brutal_xD\n ┗━━━━━━━━━━━━━━━━━━━\n "
@@ -1135,8 +1135,8 @@ async def alive(e):
 @adk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
        text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎..𝗖𝗢𝗠𝗠𝗢𝗡𝗗\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
