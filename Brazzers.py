@@ -644,11 +644,11 @@ async def _(e):
         lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = lovely[0]
-            text = "𝗢𝗪𝗡𝗘𝗥 𝗞𝗜 𝗠𝗨𝗠𝗠𝗜 𝗞𝗢 𝗥𝗘𝗔𝗗𝗬 𝗞𝗥𝗢 𝗔𝗔𝗞𝗘𝗘 𝗖𝗛𝗨𝗗𝗧𝗔 𝗛𝗨😂..."
+            text = "Brazzers......."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝗞𝗜𝗦𝗦 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗𝗗 𝗞𝗜 𝗠𝗨𝗠𝗠𝗜 𝗞𝗜 𝗖𝗛𝗨𝗧 𝗙𝗔𝗗𝗡𝗜 𝗕𝗧𝗔𝗢 😂💨...")
+                await event.edit("𝐀𝐀𝐉 𝐌𝐎𝐎𝐃 𝐓𝐎 𝐍𝐇 𝐁𝐔𝐓 𝐂𝐇𝐀𝐋𝐎 𝐂𝐇𝐎𝐃𝐊𝐄 𝐀𝐀𝐓𝐄.....")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -680,11 +680,11 @@ async def _(e):
         lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = lovely[0]
-            text = "𝗢𝗪𝗡𝗘𝗥 𝗞𝗜 𝗠𝗨𝗠𝗠𝗜 𝗞𝗢 𝗥𝗘𝗔𝗗𝗬 𝗞𝗥𝗢 𝗔𝗔𝗞𝗘𝗘 𝗖𝗛𝗨𝗗𝗧𝗔 𝗛𝗨😂..."
+            text = "Brazzers....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("𝗞𝗜𝗦𝗦 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗𝗗 𝗞𝗜 𝗠𝗨𝗠𝗠𝗜 𝗞𝗜 𝗖𝗛𝗨𝗧 𝗙𝗔𝗗𝗡𝗜 𝗕𝗧𝗔𝗢 😂💨...")
+                await event.edit("𝐀𝐀𝐉 𝐌𝐎𝐎𝐃 𝐓𝐎 𝐍𝐇 𝐁𝐔𝐓 𝐂𝐇𝐀𝐋𝐎 𝐂𝐇𝐎𝐃𝐊𝐄 𝐀𝐀𝐓𝐄. .....")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -718,7 +718,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = lovely[0]
             bc = int(bc)
-            text = "𝗖𝗛𝗢𝗗𝗞𝗘 𝗝𝗔𝗔 𝗥𝗛𝗔 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗👹..."
+            text = "Leaving....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -877,21 +877,21 @@ async def spam(e):
                         await smex.reply(message)
                     else:
                         await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.0)
+                    await asyncio.sleep(0.01)
         elif e.reply_to_msg_id and smex.media:  
             counter = int(lovely[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
                     await gifspam(e, smex) 
-                await asyncio.sleep(0.0)  
+                await asyncio.sleep(0.01)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
             counter = int(lovely[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.0)
+                    await asyncio.sleep(0.01)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1028,7 +1028,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐁𝐑𝐀𝐙𝐙𝐄𝐑 𝐏𝐑 𝐋𝐄 𝐉𝐀 𝐑𝐇𝐀"
+            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐁𝐑𝐀𝐙𝐙𝐄𝐑 𝐏𝐑 𝐋𝐄 𝐉𝐀 𝐑𝐇𝐀..."
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1038,7 +1038,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐁𝐑𝐀𝐙𝐙𝐄𝐑 𝐏𝐑 𝐋𝐄 𝐉𝐀 𝐑𝐇𝐀"
+            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐁𝐑𝐀𝐙𝐙𝐄𝐑 𝐏𝐑 𝐋𝐄 𝐉𝐀 𝐑𝐇𝐀..."
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1126,7 +1126,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎..𝐒𝐏𝐀𝐌𝐄𝐑 `{ms}` 𝗠𝗦")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n  ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎..𝐒𝐏𝐀𝐌𝐄𝐑 `{ms}` 𝗠𝗦")
 
 
 
@@ -1226,7 +1226,7 @@ async def restart(e):
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 async def alive(e):
     if e.sender_id in SMEX_USERS:
-        text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎\n\n\n Brazzers 𝐒ᴘᴀᴍ ɪs 𝐀ʟɪᴠᴇ !!\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : @Badnam_Botz\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : @Its_Brutal_xD\n ┗━━━━━━━━━━━━━━━━━━━\n "
+        text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎\n\n\n Brazzers 𝐒ᴘᴀᴍ ɪs 𝐀ʟɪᴠᴇ !!\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [BRAZZERS](t.me/Badnam_Botz)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [BADNAM](t.me/Its_Brutal_xD)\n ┗━━━━━━━━━━━━━━━━━━━\n "
         await e.reply(text, parse_mode=None, link_preview=None )
  
 
@@ -1253,7 +1253,7 @@ async def alive(e):
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎..𝗖𝗢𝗠𝗠𝗢𝗡𝗗\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎..𝗖𝗢𝗠𝗠𝗢𝗡𝗗\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
