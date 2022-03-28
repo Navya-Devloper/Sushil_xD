@@ -644,15 +644,16 @@ async def _(e):
         lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(lovely[0])
-            text = "𝙲𝙷𝙰𝙽𝙶𝙸𝙽𝙶....𝙱𝙸𝙾𝙾"
+            text = "Changing Bio"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio")
+                await event.edit("Succesfully Changed Bio By Brazzers botz")
             except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
+
             
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
