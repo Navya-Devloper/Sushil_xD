@@ -521,8 +521,8 @@ async def start_lovely():
             pass 
 
 
-    if eieee:
-        session_name = str(eieee)
+        if sieee:
+        session_name = str(sieee)
         print("String 18 Found")
         ake = TelegramClient(StringSession(session_name), a, b)
         try:
@@ -537,7 +537,7 @@ async def start_lovely():
             print(e)
             pass
     else:
-        print("Session 18 not Found")
+        print("Session 17 not Found")
         pass
         session_name = "startup"
         ake = TelegramClient(session_name, a, b)
@@ -545,6 +545,7 @@ async def start_lovely():
             await ake.start()
         except Exception as e:
             pass 
+
 
 
     if nieee:
