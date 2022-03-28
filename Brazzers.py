@@ -877,16 +877,16 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(yukki) == 2:
-            message = str(yukki[1])
+        if len(lovely) == 2:
+            message = str(lovely[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(yukki[0])
+            counter = int(lovely[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -898,7 +898,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(yukki[0])
+            counter = int(lovely[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -954,10 +954,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(yukki[0])
+            message = str(lovely[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
@@ -996,10 +996,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 12:
-            message = str(yukki[0])
+            message = str(lovely[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
