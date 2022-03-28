@@ -1334,11 +1334,51 @@ if len(sys.argv) not in (1, 3, 4):
     except Exception as e:
         pass
     try:
-        edk.disconnect()
+        ddk.disconnect()
     except Exception as e:
         pass
     try:
-        ddk.disconnect()
+        edk.disconnect()
+    except Exception as e:
+        pass
+    try
+        vkk.disconnect()
+    except Exception as e:
+        pass 
+    try:
+        kkk.disconnect()
+    except Exception as e:
+        pass
+    try:
+        lkk.disconnect()
+    except Exception as e:
+        pass 
+    try:
+        mkk.disconnect()
+    except Exception as e:
+        pass
+    try:
+        sid.disconnect()
+    except Exception as e:
+        pass
+    try:
+        shy.disconnect()
+    except Exception as e:
+        pass
+    try:
+        aan.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ake.disconnect()
+    except Exception as e:
+        pass
+    try:
+        eel.disconnect()
+    except Exception as e:
+        pass
+    try:
+        khu.disconnect()
     except Exception as e:
         pass
 else:
@@ -1375,10 +1415,50 @@ else:
     except Exception as e:
         pass
     try:
+        ddk.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
         edk.run_until_disconnected()
     except Exception as e:
         pass
     try:
-        ddk.run_until_disconnected()
+        vkk.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        kkk.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        lkk.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        mkk.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        sid.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        shy.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        aan.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ake.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        eel.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        khu.run_until_disconnected()
     except Exception as e:
         pass
