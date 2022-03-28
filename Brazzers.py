@@ -94,9 +94,10 @@ async def start_lovely():
         try:
             print("Booting Up The Client 1")
             await idk.start()
-            await idk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await idk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await idk.get_me()
+            await idk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await idk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await idk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -119,8 +120,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -143,9 +145,10 @@ async def start_lovely():
         wdk = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 3")
-            await wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await  wdk.start()
+            await wdk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -169,8 +172,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -194,8 +198,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -219,8 +224,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await adk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await adk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await adk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await adk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -244,8 +250,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -270,8 +277,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -295,8 +303,8 @@ async def start_lovely():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -321,8 +329,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await edk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await edk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await edk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await edk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -338,8 +347,8 @@ async def start_lovely():
             await edk.start()
         except Exception as e:
             pass 
-
-
+        
+    
     if eleve:
         session_name = str(eleve)
         print("String 11 Found")
@@ -347,8 +356,8 @@ async def start_lovely():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -363,9 +372,9 @@ async def start_lovely():
         try:
             await vkk.start()
         except Exception as e:
-            pass 
-
-
+            pass
+        
+    
     if twelv:
         session_name = str(twelv)
         print("String 12 Found")
@@ -373,8 +382,8 @@ async def start_lovely():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -389,17 +398,19 @@ async def start_lovely():
         try:
             await kkk.start()
         except Exception as e:
-            pass
-
+            pass   
+    
+  
     if thirt:
-        session_name = str(tenth)
-        print("String 13 Found")
+        session_name = str(thirt)
+        print("String 13  Found")
         lkk = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -415,8 +426,8 @@ async def start_lovely():
             await lkk.start()
         except Exception as e:
             pass 
-
-
+        
+    
     if forte:
         session_name = str(forte)
         print("String 14 Found")
@@ -424,8 +435,8 @@ async def start_lovely():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -440,9 +451,9 @@ async def start_lovely():
         try:
             await mkk.start()
         except Exception as e:
-            pass 
-
-
+            pass
+        
+    
     if fifth:
         session_name = str(fifth)
         print("String 15 Found")
@@ -450,8 +461,8 @@ async def start_lovely():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await sid(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await sid(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await sid(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -466,7 +477,7 @@ async def start_lovely():
         try:
             await sid.start()
         except Exception as e:
-            pass 
+            pass
 
 
     if sieee:
@@ -476,9 +487,9 @@ async def start_lovely():
         try:
             print("Booting Up The Client 16")
             await shy.start()
-            await shy(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await shy(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
             botme = await shy.get_me()
+            await shy(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await shy(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -486,15 +497,13 @@ async def start_lovely():
             pass
     else:
         print("Session 16 not Found")
-        pass
         session_name = "startup"
         shy = TelegramClient(session_name, a, b)
         try:
             await shy.start()
         except Exception as e:
-            pass 
-
-
+            pass
+   
     if seeee:
         session_name = str(seeee)
         print("String 17 Found")
@@ -503,8 +512,8 @@ async def start_lovely():
             print("Booting Up The Client 17")
             await aan.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await aan(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await aan(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await aan(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -518,8 +527,7 @@ async def start_lovely():
             await aan.start()
         except Exception as e:
             pass
-
-
+   
     if eieee:
         session_name = str(eieee)
         print("String 18 Found")
@@ -528,8 +536,8 @@ async def start_lovely():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await ake(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await ake(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await ake(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -543,9 +551,7 @@ async def start_lovely():
             await ake.start()
         except Exception as e:
             pass
-
-
-
+   
     if nieee:
         session_name = str(nieee)
         print("String 19 Found")
@@ -554,8 +560,8 @@ async def start_lovely():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await eel(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await eel(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await eel(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -566,11 +572,10 @@ async def start_lovely():
         session_name = "startup"
         eel = TelegramClient(session_name, a, b)
         try:
-            await eel.start()
+            await idk.start()
         except Exception as e:
             pass
-
-
+   
     if gandu:
         session_name = str(gandu)
         print("String 20 Found")
@@ -579,8 +584,9 @@ async def start_lovely():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
-            await khu(functions.channels.JoinChannelRequest(channel="@Badnam_Botz"))
+            await khu(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
+            await khu(functions.channels.JoinChannelRequest(channel="@naughty_stud_ents"))
+            await khu(functions.channels.JoinChannelRequest(channel="@Its_akku_about"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
