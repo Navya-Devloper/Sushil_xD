@@ -366,7 +366,7 @@ async def start_lovely():
             pass 
 
 
-    if twelv:
+    if twlev:
         session_name = str(twelv)
         print("String 12 Found")
         kkk = TelegramClient(StringSession(session_name), a, b)
@@ -385,12 +385,11 @@ async def start_lovely():
         print("Session 12 not Found")
         pass
         session_name = "startup"
-        Kkk = TelegramClient(session_name, a, b)
+        kkk = TelegramClient(session_name, a, b)
         try:
             await kkk.start()
         except Exception as e:
-            pass 
-
+            pass
 
     if thirt:
         session_name = str(tenth)
