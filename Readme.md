@@ -26,8 +26,9 @@
 
 ------------------------------------------------
 
-𝚃𝙰𝙺𝙴 𝚂𝚃𝚁𝙸𝙽𝙶 𝙵𝚁𝙾𝙼 𝙷𝙴𝚁𝙴 - 
+### String Session
+No Requirement of API ID and API HASH
 
-[![REPL](https://replit.com/@ItsBadnam/Brazzers)
+   - Generate on Repl [![Run on Repl.it](https://repl.it/badge/github/Badnam-xD/Brazzers)](https://replit.com/@ItsBadnam/Brazzers)
 
 
