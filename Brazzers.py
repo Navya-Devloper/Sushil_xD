@@ -62,7 +62,7 @@ khu = ""
 
 que = {}
 
-SMEX_USERS = [5166466565, 5195361852]
+SMEX_USERS = [5166466565, 5154093666]
 for x in SUDO:
     SMEX_USERS.append(x)
     
