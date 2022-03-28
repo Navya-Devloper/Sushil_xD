@@ -1341,7 +1341,7 @@ if len(sys.argv) not in (1, 3, 4):
         edk.disconnect()
     except Exception as e:
         pass
-    try
+    try:
         vkk.disconnect()
     except Exception as e:
         pass 
