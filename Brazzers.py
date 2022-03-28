@@ -366,7 +366,7 @@ async def start_lovely():
             pass 
 
 
-    if twlev:
+    if twelv:
         session_name = str(twelv)
         print("String 12 Found")
         kkk = TelegramClient(StringSession(session_name), a, b)
