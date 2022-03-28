@@ -1207,32 +1207,6 @@ async def restart(e):
         
         
         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))        
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-async def alive(e):
-    if e.sender_id in SMEX_USERS:
-        text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎\n\n\n Brazzers 𝐒ᴘᴀᴍ ɪs 𝐀ʟɪᴠᴇ !!\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : @Badnam_Botz\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : @Its_Badnam_op\n ┗━━━━━━━━━━━━━━━━━━━\n "
-        await e.reply(text, parse_mode=None, link_preview=None )
- 
-
        
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
