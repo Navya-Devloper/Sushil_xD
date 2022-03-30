@@ -1230,7 +1230,7 @@ async def restart(e):
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎..𝗖𝗢𝗠𝗠𝗢𝗡𝗗\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = " ♡︎ Iɴғɪɴᴛᴇsʜᴏᴜʟ 𝐒ᴘᴀ𝐌 ♡︎..𝗖𝗢𝗠𝗠𝗢𝗡𝗗\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
