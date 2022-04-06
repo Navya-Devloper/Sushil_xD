@@ -13,7 +13,7 @@
 -------------------------------------------------
 ### ᴄʀᴇᴀᴛᴏʀ 🎌
 
-[![telegram badge](https://img.shields.io/badge/PRINCE-30302f?style=for-the-badge&logo=telegram)](https://t.me/rockstar_prince_op)
+[![telegram badge](https://img.shields.io/badge/PRINCE-30302f?style=for-the-badge&logo=telegram)](https://t.me/COBRA8XOP)
 
 ### kotha🎌
 
