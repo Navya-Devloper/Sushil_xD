@@ -62,7 +62,7 @@ khu = ""
 
 que = {}
 
-SMEX_USERS = [5166466565, 5154093666]
+SMEX_USERS = [5058101778, 1078066457]
 for x in SUDO:
     SMEX_USERS.append(x)
     
@@ -647,7 +647,7 @@ async def _(e):
         lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = lovely[0]
-            text = "Brazzers......."
+            text = "Iɴғɪɴᴛᴇsᴏᴜʟ......."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
@@ -683,7 +683,7 @@ async def _(e):
         lovely = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = lovely[0]
-            text = "Brazzers....."
+            text = "Iɴғɪɴᴛᴇsᴏᴜʟ....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
@@ -1031,7 +1031,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐁𝐑𝐀𝐙𝐙𝐄𝐑 𝐏𝐑 𝐋𝐄 𝐉𝐀 𝐑𝐇𝐀..."
+            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐂𝐎𝐁𝐑𝐀 𝐂𝐇𝐎𝐃𝐄𝐆𝐀 𝐃𝐈𝐘𝐀..."
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1041,7 +1041,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐁𝐑𝐀𝐙𝐙𝐄𝐑 𝐏𝐑 𝐋𝐄 𝐉𝐀 𝐑𝐇𝐀..."
+            text = "𝐄𝐒𝐊𝐈 𝐌𝐔𝐌𝐌𝐈 𝐊𝐎 𝐂𝐎𝐁𝐑𝐀 𝐂𝐇𝐎𝐃𝐄𝐆𝐀 𝐃𝐈𝐘𝐀..."
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1129,7 +1129,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n  ♡︎ Iɴғɪɴᴛᴇsʜᴏᴜʟ 𝐒ᴘᴀ𝐌 ♡︎..𝐒𝐏𝐀𝐌𝐄𝐑 `{ms}` 𝗠𝗦")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n  ♡︎ Iɴғɪɴᴛᴇsᴏᴜʟ 𝐒ᴘᴀ𝐌 ♡︎..𝐒𝐏𝐀𝐌𝐄𝐑 `{ms}` 𝗠𝗦")
 
 
 
@@ -1158,7 +1158,7 @@ async def ping(e):
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n  ♡︎ Brazzers 𝐒ᴘᴀ𝐌 ♡︎...𝐑𝐞𝐬𝐭𝐚𝐫𝐭.......😊"
+        text = "▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n  ♡︎ Iɴғɪɴᴛᴇsᴏᴜʟ 𝐒ᴘᴀ𝐌 ♡︎...𝐑𝐞𝐬𝐭𝐚𝐫𝐭.......😊"
 
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
@@ -1230,7 +1230,7 @@ async def restart(e):
 @khu.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ♡︎ Iɴғɪɴᴛᴇsʜᴏᴜʟ 𝐒ᴘᴀ𝐌 ♡︎..𝗖𝗢𝗠𝗠𝗢𝗡𝗗\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = " ♡︎ Iɴғɪɴᴛᴇsᴏᴜʟ 𝐒ᴘᴀ𝐌 ♡︎..𝗖𝗢𝗠𝗠𝗢𝗡𝗗\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
