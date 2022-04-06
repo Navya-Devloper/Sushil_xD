@@ -1,4 +1,4 @@
-# BRAZZERS SPAMER
+# ISOUL SPAMER
 
 <p align="center">
   <img src="https://telegra.ph/file/2a1774cfde1b011bcb323.jpg">
@@ -22,7 +22,7 @@
 
 # Click The Logo' Deploy ...
 
-[![Deploy](https://telegra.ph/file/2a1774cfde1b011bcb323.jpg)](https://heroku.com/deploy?template=https://github.com/Navya-Devloper/Brazzers.com)
+[![Deploy](https://telegra.ph/file/6200c16f58c85173a3f42.jpg)](https://heroku.com/deploy?template=https://github.com/Navya-Devloper/navya.com)
 
 ------------------------------------------------
 
