@@ -1,4 +1,4 @@
-# ISOUL SPAMMER
+# iSOUL SPAMMER
 
 <p align="center">
   <img src="https://telegra.ph/file/2a1774cfde1b011bcb323.jpg">
